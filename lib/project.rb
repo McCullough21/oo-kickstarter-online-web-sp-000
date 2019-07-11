@@ -1,11 +1,11 @@
 class Project
 
-def initialize(name, backers)
-  @name = name
+def initialize(title)
+  @title = title
   @backers = []
 end
-def name
-  @name
+def title
+  @title
 end
 
 
