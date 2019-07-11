@@ -1,6 +1,6 @@
 class Project
 
-def initialize(name)
+def initialize(name, backers)
   @name = name
   @backers = []
 end
